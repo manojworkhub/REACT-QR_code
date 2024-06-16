@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    border: 0;
+
+}
+body{
+    box-sizing: border-box;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.continer h1{
+    text-transform: uppercase;
+    color: blue;
+
+}
+.input{
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   padding: 10px;
+}
+lable{
+    text-transform: capitalize;
+    padding: 7px;
+    color: blue;
+}
+img{
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+input[type=text]{
+    padding: 10px 5px;
+    border: 1px solid blue;
+    outline:none;
+}
+
+button{
+  margin:  7px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.genBUTTON{
+    background-color: blue;
+    color: white;
+}
+.dowBUTTON{
+    background-color: rgb(0, 255, 89);
+    color: rgb(255, 255, 255);
+}
+.dowBUTTON:hover{
+    background-color: rgb(2, 139, 50);
+}
